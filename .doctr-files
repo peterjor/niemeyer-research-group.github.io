@@ -195,6 +195,7 @@
 ./papers/paper/pyjac-paper.html
 ./papers/paper/reduced-gasoline-surrogate.html
 ./papers/paper/review-GPU-CFD.html
+./papers/paper/simd-simt-pyjac2.html
 ./papers/paper/skeletal-reduction.html
 ./papers/paper/smoldering-exp-comp-poci.html
 ./papers/paper/smoldering-mixtures-poci.html

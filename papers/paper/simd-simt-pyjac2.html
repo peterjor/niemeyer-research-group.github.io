@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Ignition, propagation, and emissions of smoldering combustion</title>
+    <title>Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</title>
     
     <meta name="author" content="Kyle E. Niemeyer">
 
@@ -426,68 +426,143 @@
    <!-- Content -->
    <div class="container">
       
-<div class="page-header">
-  <div class="title media-heading">Ignition, propagation, and emissions of smoldering combustion</div>
-  
+<!--
+Branched from Trevor Bedford's source, https://github.com/blab/blotter/blob/master/_layouts/paper.html
+with gratitude.
+-->
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object paper-image" src="/assets/images/papers/pyjac-paper-abstract.png">
+			
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms
+			</div>
+			<p>
+			<div class="smallhead">
+				Curtis NJ, Niemeyer KE, Sung CJ.
+				<span class="journal">
+				Combustion and Flame
+				</span>
+				
+				
+				
+				(2018).
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class="row post-full">
-  <div class="col-xs-12">
-    <div class="date">
-      <span>05 September 2018</span>
-    </div>
-    <div class="content">
-      
+<div class="bigspacer"></div>
 
-    </div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="bigspacer"></div>
+        <div class="glyphbox note"> <!-- DAD: what is this class? -->
+            <div class="smallhead subtle">
+                Full text
+            </div>
+
+            <div class="pad-left note">
+                <div class="smallspacer"></div>
+                
+                <i class="ai ai-doi fa-fw"></i>
+                
+                <a class="off" href="https://doi.org/"></a>
+                <br/>
+                
+                <i class="ai ai-arxiv fa-fw"></i>
+                <a class="off" href="https://arxiv.org/abs/1809.01029"><code>arXiv:1809.01029 [physics.comp-ph]</code></a>
+                
+            </div>
+            <div class="bigspacer"></div>
+
+			
+
+			
+
+			
+			<div class="smallhead subtle">
+				Source code
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fas fa-cog fa-fw"></i>
+				<a class="off" href="https://github.com/SLACKHA/pyJac-v2">github.com/SLACKHA/pyJac-v2</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			<div class="smallhead subtle">
+				Data
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fas fa-database fa-fw"></i>
+                
+                
+                <a class="off" href="https://doi.org/10.6084/m9.figshare.6534146">Figshare</a>
+                
+                
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			<div class="smallhead subtle">
+				Share
+			</div>
+		    <!-- Paste the 3 next lines where you want the sharing button(s) to appear -->
+		    <div class="post-sharing">
+		     
 
   
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-open"></i></li>
-      
-      
+  		<!-- Twitter -->
+<i class="fab fa-twitter fa-fw"></i>
+<a class="off" href="https://twitter.com/share?url=&text=" data-text="Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms" data-via="" data-related="kyleniemeyer" target="_blank">tweet</a>
+
+	
 
 
-  
-     
-    	<li><a href="/categories.html#project-ref">
-    		project <span></span>
-    	</a></li>
-    
-  
+            </div>
 
+		</div>
+	</div>
+	
+	<div class="col-md-8">
+		<div class="post">
+			
+<h1 id="abstract">Abstract</h1>
 
-    </ul>
-    
+<p>Accurately predicting key combustion phenomena in reactive-flow simulations, e.g., lean blow-out, extinction/ignition limits and pollutant formation, necessitates the use of detailed chemical kinetics. The large size and high levels of numerical stiffness typically present in chemical kinetic models relevant to transportation/power-generation applications make the efficient evaluation/factorization of the chemical kinetic Jacobian and thermochemical source-terms critical to the performance of reactive-flow codes. Here we investigate the performance of vectorized evaluation of constant-pressure/volume thermochemical source-term and sparse/dense chemical kinetic Jacobians using single-instruction, multiple-data (SIMD) and single-instruction, multiple thread (SIMT) paradigms. These are implemented in pyJac, an open-source, reproducible code generation platform. Selected chemical kinetic models covering the range of sizes typically used in reactive-flow simulations were used for demonstration. A new formulation of the chemical kinetic governing equations was derived and verified, resulting in Jacobian sparsities of 28.6–92.0% for the tested models. Speedups of 3.40–4.08× were found for shallow-vectorized OpenCL source-rate evaluation compared with a parallel OpenMP code on an avx2 central processing unit (CPU), increasing to 6.63–9.44× and 3.03–4.23 × for sparse and dense chemical kinetic Jacobian evaluation, respectively. Furthermore, the effect of data-ordering was investigated and a storage pattern specifically formulated for vectorized evaluation was pro- posed; as well, the effect of the constant pressure/volume assumptions and varying vector widths were studied on source-term evaluation performance. Speedups reached up to 17.60× and 45.13× for dense and sparse evaluation on the GPU, and up to 55.11× and 245.63× on the CPU over a first-order finite-difference Jacobian approach. Further, dense Jacobian evaluation was up to 19.56× and 2.84× times faster than a previous version of pyJac on a CPU and GPU, respectively. Finally, future directions for vectorized chemical kinetic evaluation and sparse linear-algebra techniques were discussed.</p>
 
-  
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-tags"></i></li>
-      
-      
+		</div>
+        <div class="post">
+            <h1 id="bibte">BibTeX</h1>
+            <pre> @article{Curtis2018pj2,
+  author = {Nicholas J. Curtis and Kyle E. Niemeyer and Chih-Jen Sung},
+  title = {Using {SIMD} and {SIMT} vectorization to evaluate sparse chemical kinetic {Jacobian} matrices and thermochemical source terms},
+  journal = {Combustion and Flame},
+  year  = 2018,
+  note = {In press},
+}
+ </pre>
+        </div
+	</div>
+	
 
-
-  
-     
-    	<li><a href="/tags.html#combustion-ref">combustion <span>1</span></a></li>
-     
-    	<li><a href="/tags.html#smoldering-ref">smoldering <span></span></a></li>
-     
-    	<li><a href="/tags.html#wood-ref">wood <span></span></a></li>
-     
-    	<li><a href="/tags.html#biomass-ref">biomass <span></span></a></li>
-    
-  
-
-
-
-    </ul>
-    
-  
-    <hr>
-    
-  </div>
+	<div class="col-md-1"></div>
 </div>
+
+<div class="bigspacer"></div>
 
 
    </div>
