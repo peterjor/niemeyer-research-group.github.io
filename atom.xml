@@ -4,13 +4,29 @@
  <title>Niemeyer Research Group</title>
  <link href="https://niemeyer-research-group.github.io//" rel="self"/>
  <link href="https://niemeyer-research-group.github.io/"/>
- <updated>2019-01-02T08:16:24+00:00</updated>
+ <updated>2019-01-04T00:31:09+00:00</updated>
  <id>https://niemeyer-research-group.github.io/</id>
  <author>
    <name>Kyle E. Niemeyer</name>
    <email>kyle.niemeyer@oregonstate.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>The principles of tomorrow's university</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/tomorrows-university"/>
+   <updated>2019-01-03T00:00:00+00:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/tomorrows-university</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;In the 21st Century, research is increasingly data- and computation-driven. Researchers, funders, and the larger community today emphasize the traits of openness and reproducibility. In March 2017, 13 mostly early-career research leaders who are building their careers around these traits came together with ten university leaders (presidents, vice presidents, and vice provosts), representatives from four funding agencies, and eleven organizers and other stakeholders in an NIH- and NSF-funded one-day, invitation-only workshop titled “Imagining Tomorrow’s University.” Workshop attendees were charged with launching a new dialog around open research – the current status, opportunities for advancement, and challenges that limit sharing.&lt;/p&gt;
+
+&lt;p&gt;The workshop examined how the internet-enabled research world has changed, and how universities need to change to adapt commensurately, aiming to understand how universities can and should make themselves competitive and attract the best students, staff, and faculty in this new world. During the workshop, the participants re-imagined scholarship, education, and institutions for an open, networked era, to uncover new opportunities for universities to create value and serve society. They expressed the results of these deliberations as a set of 22 principles of tomorrow’s university across six areas: credit and attribution, communities, outreach and engagement, education, preservation and reproducibility, and technologies.&lt;/p&gt;
+
+&lt;p&gt;Activities that follow on from workshop results take one of three forms. First, since the workshop, a number of workshop authors have further developed and published their white papers to make their reflections and recommendations more concrete. These authors are also conducting efforts to implement these ideas, and to make changes in the university system.  Second, we plan to organise a follow-up workshop that focuses on how these principles could be implemented. Third, we believe that the outcomes of this workshop support and are connected with recent theoretical work on the position and future of open knowledge institutions.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Effects of Langmuir turbulence on upper ocean carbonate chemistry</title>

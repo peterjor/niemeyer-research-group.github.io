@@ -63,6 +63,7 @@
 ./assets/images/papers/software-citation-challenge.png
 ./assets/images/papers/software-citation-principles-abstract.svg
 ./assets/images/papers/target-species-selection-abstract.svg
+./assets/images/papers/tomorrows-university.png
 ./assets/images/papers/wssspe3-report-abstract.svg
 ./assets/images/papers/wssspe4-jors.svg
 ./assets/images/projects/LTC-index.png
@@ -209,6 +210,7 @@
 ./papers/paper/software-citation-principles.html
 ./papers/paper/stiff-GPU-integrators.html
 ./papers/paper/target-species-selection.html
+./papers/paper/tomorrows-university.html
 ./papers/paper/wssspe3-report.html
 ./papers/paper/wssspe4-jors.html
 ./redirects.json
