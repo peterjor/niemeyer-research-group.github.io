@@ -42,6 +42,7 @@
 ./assets/images/papers/default-paper.png
 ./assets/images/papers/default-paper.svg
 ./assets/images/papers/enfuem.2018.32.cover.jpg
+./assets/images/papers/fuel-cover.jpg
 ./assets/images/papers/integrator-abstract.png
 ./assets/images/papers/jmse-aps-analysis.png
 ./assets/images/papers/joss-peerjcs.png
@@ -179,6 +180,7 @@
 ./pages.html
 ./papers/index.html
 ./papers/paper/FACE-surrogates.html
+./papers/paper/FTIR-LTC.html
 ./papers/paper/GPU-swept-rule-1D.html
 ./papers/paper/LTC-index-oxygenated.html
 ./papers/paper/LTC-index.html

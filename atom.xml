@@ -4,13 +4,25 @@
  <title>Niemeyer Research Group</title>
  <link href="https://niemeyer-research-group.github.io//" rel="self"/>
  <link href="https://niemeyer-research-group.github.io/"/>
- <updated>2019-01-16T08:19:10+00:00</updated>
+ <updated>2019-01-17T06:35:24+00:00</updated>
  <id>https://niemeyer-research-group.github.io/</id>
  <author>
    <name>Kyle E. Niemeyer</name>
    <email>kyle.niemeyer@oregonstate.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</title>
+   <link href="https://niemeyer-research-group.github.io//papers/paper/FTIR-LTC"/>
+   <updated>2019-01-17T00:00:00+00:00</updated>
+   <id>https://niemeyer-research-group.github.io//papers/paper/FTIR-LTC</id>
+   <content type="html">
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;This work uses support vector machine regression to correlate infrared absorption spectra to a metric representing low temperature combustion engine (LTC) performance, the LTC index: a singular value encapsulating achievable engine loads, combustion phasing, and efficiency. 313 total fuels informed the model, including mixtures and surrogate gasoline fuels containing n-heptane, isooctane (i.e., 2,2,4-trimethylpentane), toluene, ethanol, methylcyclohexane, xylene(s), 2-methybutane, and 2-methylhexane. We predicted LTC indices of the FACE (Fuels for Advanced Combustion Engines) gasolines A–J within ±6.0 units. The proposed methodology can be used to both predict gasoline LTC performance and also identify important hydrocarbon components that most improve (or reduce) LTC engine performance.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The principles of tomorrow's university</title>
