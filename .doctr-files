@@ -38,6 +38,7 @@
 ./assets/images/papers/RON-FTIR-abstract.svg
 ./assets/images/papers/bone-tissue-imaging-abstract.png
 ./assets/images/papers/butanol-structure.png
+./assets/images/papers/caaba-mecca.png
 ./assets/images/papers/chemked-ijck.png
 ./assets/images/papers/cpc-chemistry-vectorization.png
 ./assets/images/papers/default-paper.png
@@ -94,6 +95,7 @@
 ./assets/images/team/ella-strebig.jpg
 ./assets/images/team/emily-klee.jpg
 ./assets/images/team/fillo.jpg
+./assets/images/team/group-NCM2019.jpg
 ./assets/images/team/group-Wyoming-Oct2017.jpg
 ./assets/images/team/group-escape-room-Jan2019.jpg
 ./assets/images/team/himakar-ganti.jpg
@@ -183,6 +185,7 @@
 ./notes.md
 ./pages.html
 ./papers/index.html
+./papers/paper/CAABA-MECCA.html
 ./papers/paper/FACE-surrogates.html
 ./papers/paper/FTIR-LTC.html
 ./papers/paper/GPU-swept-rule-1D.html
