@@ -117,27 +117,31 @@ term {
   font-style: italic; }
 
 strong {
-  font-style: bold; }
+  font-weight: bold; }
 
+/*
 .logo {
-  width: 50px;
-  height: 50px;
-  padding: 5px; }
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
 
 .biglogo {
-  width: 180px;
-  height: 180px;
-  padding: 5px; }
+	width: 180px;
+	height: 180px;
+	padding: 5px;
+}
 
 .logobox {
-  height: 180px;
-  line-height: 65px;
-  font-weight: 700;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  text-shadow: 1.5px 1.5px #ffffff; }
-
+	height: 180px;
+	line-height: 65px;
+	font-weight: $heavy-font-weight;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 1.5px 1.5px #ffffff;
+}
+*/
 .navbar-brand {
   font-size: 30px;
   font-weight: 300; }
@@ -158,6 +162,9 @@ strong {
 .navbar-small {
   font-size: 15px;
   font-weight: 300; }
+  .navbar-small li {
+    padding-left: 10px;
+    padding-right: 10px; }
 
 .project-image {
   width: 600px;
@@ -204,6 +211,14 @@ strong {
   left: 0;
   width: 100%;
   text-align: center; }
+
+.carousel-item {
+  height: 500px;
+  overflow: hidden;
+  width: 100%; }
+
+.carousel-item img {
+  width: 100%; }
 
 .logotitle {
   font-size: 30px;

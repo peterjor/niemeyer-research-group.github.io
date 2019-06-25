@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Software</title>
-    <meta name="description" content="">
+    <meta name="description" content="Research software developed by our group">
     <meta name="author" content="Kyle E. Niemeyer">
 
     <!-- Enable responsive viewport -->
@@ -14,8 +14,7 @@
 
     <!-- Bootstrap styles -->
     <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Optional theme -->
-    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    
     <!-- Sticky Footer -->
     <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
 
@@ -66,145 +65,170 @@
 
   <!-- Static top navbar -->
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class='container'>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="/">
+      <a class="navbar-brand" href="/">
         <img class="navbar-left logo" src="/assets/themes/lab/images/logo/lab-logo.svg" type="image/svg+xml">
-        </a>
-      </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-        <ul class="nav navbar-nav navbar-left hidden-sm">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav"> 
+          
           <!-- Don't put site title on home page -- there's already a big title there. -->
           
           
           
-          <a class="navbar-brand" href="/">Niemeyer Research Group</a>
-          
-        </ul>
-        <ul class="nav navbar-nav navbar-right pull-right">
-          
-          
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/">Home</a>
+          </li>
           
 
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/research/">Research</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/team/">Team</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/">Papers</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
+          
+          
+          
 
 
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/research/">Research</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/team/">Team</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/">Papers</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item active">
+				    <a class="nav-link" href="/software/">Software</a>
+					</li>
+				  
+      	
+      
+    
+  
+    
+      
+    
+  
 
-          <li><a href="https://medium.com/nrg-excitations" target="_blank">Blog</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              More <span class="caret"></span>
+
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/nrg-excitations" target="_blank">Blog</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs
             </a>
-
-            <ul class="dropdown-menu" role="menu">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                <a class="dropdown-item" href="/docs">Docs</a>
+              
+              <div class="dropdown-divider"></div>
               
               
               
+              
 
 
   
@@ -259,219 +283,185 @@
     
   
     
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
       	
-      	<li class="active"><a href="/software/" class="active">Software</a></li>
       	
+				  
+				  <a class="dropdown-item" href="/docs/mission">Mission</a>
+				  
+				
       
     
   
     
       
+    
+  
+    
       	
-      	<li><a href="/news/">News</a></li>
       	
+				  
+				  <a class="dropdown-item" href="/docs/code-of-conduct">Code of Conduct</a>
+				  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+				  <a class="dropdown-item" href="/docs/expectations">Expectations</a>
+				  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
       
     
   
 
 
 
-            </ul>
+            </div>
           </li>
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Docs <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              
-                <li class="dropdown-item"><a href="/docs">Docs</a></li>
-              
-              <li role="separator" class="divider"></li>
-              
-              
-              
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/mission">Mission</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/code-of-conduct">Code of Conduct</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/expectations">Expectations</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-            </ul>
-          </li>
-
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </nav>
-   </div>
+      </div>
+    </div>
+  </nav>
 
-   <!-- Content -->
-   <div class="container">
-      
+  <!-- Content -->
+  <div class="container">
+    
+<p>All of the software featured here, and more, is also available via various GitHub repos:</p>
 
-<div class="pager">
+<ul>
+  <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/Niemeyer-Research-Group">NRG organization</a></li>
+  <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/SLACKHA">SLACKHA project organization</a></li>
+  <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/pr-omethe-us">prometheus project organization</a></li>
+  <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/kyleniemeyer">Kyle’s GitHub account</a></li>
+</ul>
 
-	
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/SLACKHA/pyJac">pyJac</a></h5>
+        <p class="card-text">Tool for generating C and CUDA source code for evaluating source terms and analytical Jacobian matrices for chemical kinetics ODE systems.</p>
+        <a href="https://doi.org/10.5281/zenodo.598088" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.598088.svg" alt="DOI" /></a>
+        <a href="https://anaconda.org/slackha/pyjac" class="card-link"> <img src="https://anaconda.org/slackha/pyjac/badges/version.svg" /></a>
+      </div>
+    </div>
+  </div>
 
-	
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/SLACKHA/pyJac-v2">pyJac-v2</a></h5>
+        <p class="card-text">Tool for generating OpenCL source code for evaluating source terms and sparse analytical Jacobian matrices for chemical kinetics ODE systems.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/Niemeyer-Research-Group/pyMARS">pyMARS</a></h5>
+        <p class="card-text">Python-based Model Automatic Reduction Software. Under-development tool for automatically reducing chemical kinetic models.</p>
+        <a href="https://doi.org/10.5281/zenodo.1245156" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1245156.svg" alt="DOI" /></a>
+        <!--<a href="https://anaconda.org/slackha/pyjac" class="card-link"> <img src="https://anaconda.org/slackha/pyjac/badges/version.svg"/></a>-->
+        <a href="https://travis-ci.org/Niemeyer-Research-Group/pyMARS" class="card-link"><img src="https://travis-ci.org/Niemeyer-Research-Group/pyMARS.svg?branch=master" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://niemeyer-research-group.github.io/MARS/">MARS</a></h5>
+        <p class="card-text">Model Automatic Reduction Software: mature, but frozen, software for reducing chemical kinetic models using multiple reduction stages. Please contact for access.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/pr-omethe-us/PyKED">PyKED</a></h5>
+        <p class="card-text">PyKED is a Python-based software package for validating and interacting with ChemKED (Chemical Kinetics Experimental Data format) files that describe fundamental experimental measurements of combustion phenomena.</p>
+        <a href="https://doi.org/10.5281/zenodo.597935" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.597935.svg" alt="DOI" /></a>
+        <a href="https://anaconda.org/pr-omethe-us/pyked" class="card-link"> <img src="https://anaconda.org/pr-omethe-us/pyked/badges/version.svg" /></a>
+        <a href="https://travis-ci.org/pr-omethe-us/PyKED" class="card-link"><img src="https://travis-ci.org/pr-omethe-us/PyKED.svg?branch=master" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/pr-omethe-us/PyTeCK">PyTeCK</a></h5>
+        <p class="card-text">Software for automatically validating chemical kinetic models against experimental data described by ChemKED files; produces quantitative measure of model performance.</p>
+        <a href="https://doi.org/10.5281/zenodo.596724" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.596724.svg" alt="DOI" /></a>
+        <a href="https://anaconda.org/pr-omethe-us/pyteck" class="card-link"> <img src="https://anaconda.org/pr-omethe-us/pyteck/badges/version.svg" /></a>
+        <a href="https://travis-ci.org/pr-omethe-us/PyTeCK" class="card-link"><img src="https://travis-ci.org/pr-omethe-us/PyTeCK.svg?branch=master" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://github.com/kyleniemeyer/irrev_mech">irrev-mech</a></h5>
+        <p class="card-text">A Python utility that converts Chemkin-format chemical kinetic models with reversible reactions into those with only irreversible reactions.</p>
+        <a href="https://doi.org/10.5281/zenodo.226672" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.226672.svg" alt="DOI" /></a>
+      </div>
+    </div>
+  </div>
 
 </div>
 
-Here you'll find software that we have developed for our research, either from scratch or forked from others.
-
-<hr>
-
-
-
-
-
-
-<div class="bigspacer"></div>
-
-   </div>
+  </div>
 
 
   <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+      <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-controls="jb-bottom-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a href=http://mime.oregonstate.edu/>School of Mechanical, Industrial, and Manufacturing Engineering</a></li>
-          <li><a href=https://oregonstate.edu/>Oregon State University</a></li>
+        <ul class="navbar-nav mr-auto navbar-small"> 
+          <li class="nav-item"><a href=http://mime.oregonstate.edu/>School of Mechanical, Industrial, and Manufacturing Engineering</a></li>
+          <li class="nav-item"><a href=https://oregonstate.edu/>Oregon State University</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a href='/about.html#purpose'>About</a></li>
-          <li><a href='/about.html#join'>Join</a></li>
-          <li><a href='/about.html#contact'>Contact</a></li>
+        
+        <ul class="navbar-nav navbar-small">
+          <li class="nav-item"><a href='/about.html#purpose'>About</a></li>
+          <li class="nav-item"><a href='/about.html#join'>Join</a></li>
+          <li class="nav-item"><a href='/about.html#contact'>Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div>
+      </div>
   </nav>
 
 
@@ -480,11 +470,10 @@ Here you'll find software that we have developed for our research, either from s
 
 
 
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+
   </body>
 </html>
 

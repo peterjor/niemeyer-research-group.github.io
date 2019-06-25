@@ -6,7 +6,6 @@ https://niemeyer-research-group.github.io//atom.xml
 https://niemeyer-research-group.github.io//categories
 https://niemeyer-research-group.github.io//docs/code-of-conduct
 https://niemeyer-research-group.github.io//docs/expectations
-https://niemeyer-research-group.github.io//software/
 https://niemeyer-research-group.github.io//news/
 https://niemeyer-research-group.github.io//papers/
 https://niemeyer-research-group.github.io//
@@ -16,6 +15,7 @@ https://niemeyer-research-group.github.io//pages
 https://niemeyer-research-group.github.io//research/
 https://niemeyer-research-group.github.io//rss.xml
 https://niemeyer-research-group.github.io//sitemap.txt
+https://niemeyer-research-group.github.io//software/
 https://niemeyer-research-group.github.io//assets/themes/lab/less/style.less
 https://niemeyer-research-group.github.io//assets/themes/lab/css/style.css
 https://niemeyer-research-group.github.io//tags

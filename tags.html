@@ -14,8 +14,7 @@
 
     <!-- Bootstrap styles -->
     <link href="/assets/themes/lab/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Optional theme -->
-    <link href="/assets/themes/lab/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    
     <!-- Sticky Footer -->
     <link href="/assets/themes/lab/bootstrap/css/bs-sticky-footer.css" rel="stylesheet"/>
 
@@ -66,145 +65,170 @@
 
   <!-- Static top navbar -->
 
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class='container'>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="/">
+      <a class="navbar-brand" href="/">
         <img class="navbar-left logo" src="/assets/themes/lab/images/logo/lab-logo.svg" type="image/svg+xml">
-        </a>
-      </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-navbar-collapse">
-        <ul class="nav navbar-nav navbar-left hidden-sm">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav"> 
+          
           <!-- Don't put site title on home page -- there's already a big title there. -->
           
           
           
-          <a class="navbar-brand" href="/">Niemeyer Research Group</a>
-          
-        </ul>
-        <ul class="nav navbar-nav navbar-right pull-right">
-          
-          
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/">Home</a>
+          </li>
           
 
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/research/">Research</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/team/">Team</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/">Papers</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
+          
+          
+          
 
 
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/research/">Research</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/team/">Team</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/">Papers</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/software/">Software</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      
+    
+  
 
-          <li><a href="https://medium.com/nrg-excitations" target="_blank">Blog</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              More <span class="caret"></span>
+
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://medium.com/nrg-excitations" target="_blank">Blog</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs
             </a>
-
-            <ul class="dropdown-menu" role="menu">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                <a class="dropdown-item" href="/docs">Docs</a>
+              
+              <div class="dropdown-divider"></div>
               
               
               
+              
 
 
   
@@ -259,173 +283,68 @@
     
   
     
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
       	
-      	<li><a href="/software/">Software</a></li>
       	
+				  
+				  <a class="dropdown-item" href="/docs/mission">Mission</a>
+				  
+				
       
     
   
     
       
+    
+  
+    
       	
-      	<li><a href="/news/">News</a></li>
       	
+				  
+				  <a class="dropdown-item" href="/docs/code-of-conduct">Code of Conduct</a>
+				  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      	
+      	
+				  
+				  <a class="dropdown-item" href="/docs/expectations">Expectations</a>
+				  
+				
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
       
     
   
 
 
 
-            </ul>
+            </div>
           </li>
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              Docs <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              
-                <li class="dropdown-item"><a href="/docs">Docs</a></li>
-              
-              <li role="separator" class="divider"></li>
-              
-              
-              
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-  
-    
-  
-    
-      
-    
-  
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/mission">Mission</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/code-of-conduct">Code of Conduct</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/docs/expectations">Expectations</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-            </ul>
-          </li>
-
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </nav>
-   </div>
+      </div>
+    </div>
+  </nav>
 
-   <!-- Content -->
-   <div class="container">
-      
+  <!-- Content -->
+  <div class="container">
+    
 <div class="page-header">
   <h1>Tags </h1>
 </div>
@@ -699,10 +618,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -719,10 +642,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -739,10 +666,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -759,10 +690,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -779,10 +714,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -799,10 +738,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/bone-imaging">Three-dimensional surface texture visualization of bone tissue through epifluorescence-based serial block face imaging</a>
+					</li>
+      	  
+				
       
     
   
@@ -819,26 +762,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -855,58 +810,86 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -923,18 +906,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -951,26 +942,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -987,34 +990,50 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -1031,10 +1050,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -1051,10 +1074,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -1071,10 +1098,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/skeletal-reduction">Skeletal mechanism generation for surrogate fuels using directed relation graph with error propagation and sensitivity analysis</a>
+					</li>
+      	  
+				
       
     
   
@@ -1091,10 +1122,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
     
   
@@ -1111,10 +1146,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
     
   
@@ -1131,10 +1170,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
     
   
@@ -1151,10 +1194,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/graph-search">On the importance of graph search algorithms for DRGEP-based mechanism reduction methods</a>
+					</li>
+      	  
+				
       
     
   
@@ -1171,10 +1218,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -1191,42 +1242,62 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -1243,42 +1314,62 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -1295,26 +1386,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -1331,18 +1434,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/moderately-stiff-GPU">Accelerating moderately stiff chemical kinetics in reactive-flow simulations using GPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -1359,10 +1470,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
@@ -1379,10 +1494,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
@@ -1399,10 +1518,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
@@ -1419,10 +1542,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
@@ -1439,10 +1566,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/review-GPU-CFD">Recent progress and challenges in exploiting graphics processors in computational fluid dynamics</a>
+					</li>
+      	  
+				
       
     
   
@@ -1459,26 +1590,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
       
     
   
@@ -1495,10 +1638,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
       
     
   
@@ -1515,10 +1662,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/multicomponent-reduction">Mechanism reduction for multicomponent surrogates: a case study using toluene reference fuels</a>
+					</li>
+      	  
+				
       
     
   
@@ -1535,42 +1686,62 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
@@ -1587,18 +1758,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
@@ -1615,10 +1794,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
@@ -1635,10 +1818,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/reduced-gasoline-surrogate">Reduced chemistry for a gasoline surrogate valid at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
     
   
@@ -1655,10 +1842,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1675,10 +1866,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1695,10 +1890,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/target-species-selection">An automated target species selection method for dynamic adaptive chemistry simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1715,10 +1914,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a>
+					</li>
+      	  
+				
       
     
   
@@ -1735,10 +1938,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a>
+					</li>
+      	  
+				
       
     
   
@@ -1755,18 +1962,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index-oxygenated">Investigation of the LTC fuel performance index for oxygenated reference fuel blends</a>
+					</li>
+      	  
+				
       
     
   
@@ -1783,10 +1998,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1803,10 +2022,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1823,10 +2046,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1843,10 +2070,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/LTC-index">A novel fuel performance index for LTC engines based on operating envelopes in light-duty driving cycle simulations</a>
+					</li>
+      	  
+				
       
     
   
@@ -1863,18 +2094,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
@@ -1891,10 +2130,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
@@ -1911,10 +2154,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/kerosene-model-reduction">Development of efficient and accurate skeletal mechanisms for hydrocarbon fuels and kerosene surrogate</a>
+					</li>
+      	  
+				
       
     
   
@@ -1931,10 +2178,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a>
+					</li>
+      	  
+				
       
     
   
@@ -1951,26 +2202,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/butanol-skeletal-models">Reduced chemistry for butanol isomers at engine-relevant conditions</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a>
+					</li>
+      	  
+				
       
     
   
@@ -1987,10 +2250,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/nbutanol-counterflow">Counterflow ignition of <i>n</i>-butanol at atmospheric and elevated pressures</a>
+					</li>
+      	  
+				
       
     
   
@@ -2007,26 +2274,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/software-citation-principles">Software citation principles</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-principles">Software citation principles</a>
+					</li>
+      	  
+				
       
     
   
@@ -2043,26 +2322,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/software-citation-principles">Software citation principles</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-principles">Software citation principles</a>
+					</li>
+      	  
+				
       
     
   
@@ -2079,18 +2370,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-challenge">The challenge and promise of software citation for credit, identification, discovery, and reuse</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/software-citation-principles">Software citation principles</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/software-citation-principles">Software citation principles</a>
+					</li>
+      	  
+				
       
     
   
@@ -2107,10 +2406,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2127,10 +2430,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2147,10 +2454,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe3-report">Report on the Third Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE3)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2167,10 +2478,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
@@ -2187,10 +2502,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/RON-FTIR">Predicting fuel research octane number using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
@@ -2207,50 +2526,74 @@
 
   
     
-      
       	
-      	<li><a href="/news/aj-featured-newspaper">AJ featured in Gazette-Times</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/news/dan-andrew-luz-defended">NRG group MS defenses</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/aj-featured-newspaper">AJ featured in Gazette-Times</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/news/liblab-local-news">AJ in Gazette-Times</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/news/NRG-featured-news">NRG in the news</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/dan-andrew-luz-defended">NRG group MS defenses</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/news/pilot-liblab-video">AJ in the news</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/liblab-local-news">AJ in Gazette-Times</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/NRG-featured-news">NRG in the news</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/news/kyle-faculty-spotlight">Kyle featured in faculty spotlight article</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/pilot-liblab-video">AJ in the news</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/kyle-faculty-spotlight">Kyle featured in faculty spotlight article</a>
+					</li>
+      	  
+				
       
     
   
@@ -2267,18 +2610,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a>
+					</li>
+      	  
+				
       
     
   
@@ -2295,26 +2646,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/pyjac-paper">pyJac: Analytical Jacobian generator for chemical kinetics</a>
+					</li>
+      	  
+				
       
     
   
@@ -2331,10 +2694,14 @@
 
   
     
-      
       	
-      	<li><a href="/news/pilot-liblab-video">AJ in the news</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/pilot-liblab-video">AJ in the news</a>
+					</li>
+      	  
+				
       
     
   
@@ -2351,42 +2718,62 @@
 
   
     
-      
       	
-      	<li><a href="/news/aj-featured-newspaper">AJ featured in Gazette-Times</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/news/dan-andrew-luz-defended">NRG group MS defenses</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/aj-featured-newspaper">AJ featured in Gazette-Times</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/news/liblab-local-news">AJ in Gazette-Times</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/news/NRG-featured-news">NRG in the news</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/dan-andrew-luz-defended">NRG group MS defenses</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/liblab-local-news">AJ in Gazette-Times</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/news/pilot-liblab-video">AJ in the news</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/NRG-featured-news">NRG in the news</a>
+					</li>
+      	  
+				
+      
+    
+  
+    
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/news/pilot-liblab-video">AJ in the news</a>
+					</li>
+      	  
+				
       
     
   
@@ -2403,18 +2790,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a>
+					</li>
+      	  
+				
       
     
   
@@ -2431,26 +2826,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/stiff-GPU-integrators">An investigation of GPU-based stiff chemical kinetics integration methods</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/oil-water-natural-gas-engine">Effects of oil and water contamination on natural gas engine combustion processes</a>
+					</li>
+      	  
+				
       
     
   
@@ -2467,10 +2874,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/peer-review">A multi-disciplinary perspective on emergent and future innovations in peer review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/peer-review">A multi-disciplinary perspective on emergent and future innovations in peer review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2487,10 +2898,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/peer-review">A multi-disciplinary perspective on emergent and future innovations in peer review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/peer-review">A multi-disciplinary perspective on emergent and future innovations in peer review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2507,10 +2922,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a>
+					</li>
+      	  
+				
       
     
   
@@ -2527,10 +2946,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a>
+					</li>
+      	  
+				
       
     
   
@@ -2547,10 +2970,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/model-parameter-discrepancy">Assessing impacts of discrepancies in model parameters on autoignition model performance: A case study using butanol</a>
+					</li>
+      	  
+				
       
     
   
@@ -2567,10 +2994,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2587,10 +3018,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2607,10 +3042,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2627,10 +3066,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2647,10 +3090,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2667,10 +3114,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/GPU-swept-rule-1D">Accelerating solutions of one-dimensional unsteady PDEs with GPU-based swept time–space decomposition</a>
+					</li>
+      	  
+				
       
     
   
@@ -2687,26 +3138,38 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a></li>
       	
-      
-    
-  
-    
-      
-      	
-      	<li><a href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a></li>
-      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a>
+					</li>
+      	  
+				
       
     
   
     
+      	
+      	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a>
+					</li>
+      	  
+				
       
+    
+  
+    
       	
-      	<li><a href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a>
+					</li>
+      	  
+				
       
     
   
@@ -2723,10 +3186,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a>
+					</li>
+      	  
+				
       
     
   
@@ -2743,10 +3210,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a>
+					</li>
+      	  
+				
       
     
   
@@ -2763,10 +3234,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a>
+					</li>
+      	  
+				
       
     
   
@@ -2783,10 +3258,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/chemked-ijck">ChemKED: A human- and machine-readable data standard for chemical kinetics experiments</a>
+					</li>
+      	  
+				
       
     
   
@@ -2803,10 +3282,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2823,10 +3306,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2843,10 +3330,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2863,10 +3354,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/wssspe4-jors">Fourth Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4)</a>
+					</li>
+      	  
+				
       
     
   
@@ -2883,10 +3378,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2903,10 +3402,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2923,10 +3426,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2943,10 +3450,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2963,10 +3474,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -2983,10 +3498,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/joss-peerjcs">Journal of Open Source Software (JOSS): design and first-year review</a>
+					</li>
+      	  
+				
       
     
   
@@ -3003,10 +3522,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -3023,10 +3546,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/cpc-chemistry-vectorization">Accelerating finite-rate chemical kinetics with coprocessors: Comparing vectorization methods on GPUs, MICs, and CPUs</a>
+					</li>
+      	  
+				
       
     
   
@@ -3043,10 +3570,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a>
+					</li>
+      	  
+				
       
     
   
@@ -3063,10 +3594,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a>
+					</li>
+      	  
+				
       
     
   
@@ -3083,10 +3618,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a>
+					</li>
+      	  
+				
       
     
   
@@ -3103,10 +3642,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/jmse-aps-analysis">Analysis of an approach for detecting arc positions during vacuum arc remelting based on magnetic flux density measurements</a>
+					</li>
+      	  
+				
       
     
   
@@ -3123,18 +3666,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/openness-engineering">The case for openness in engineering research</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/openness-engineering">The case for openness in engineering research</a>
+					</li>
+      	  
+				
       
     
   
@@ -3151,10 +3702,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/openness-engineering">The case for openness in engineering research</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/openness-engineering">The case for openness in engineering research</a>
+					</li>
+      	  
+				
       
     
   
@@ -3171,10 +3726,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/openness-engineering">The case for openness in engineering research</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/openness-engineering">The case for openness in engineering research</a>
+					</li>
+      	  
+				
       
     
   
@@ -3191,10 +3750,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/openness-engineering">The case for openness in engineering research</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/openness-engineering">The case for openness in engineering research</a>
+					</li>
+      	  
+				
       
     
   
@@ -3211,10 +3774,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/openness-engineering">The case for openness in engineering research</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/openness-engineering">The case for openness in engineering research</a>
+					</li>
+      	  
+				
       
     
   
@@ -3231,18 +3798,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FTIR-LTC">Predicting fuel low-temperature combustion performance using Fourier-transform infrared absorption spectra of neat hydrocarbons</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a>
+					</li>
+      	  
+				
       
     
   
@@ -3259,10 +3834,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/FACE-surrogates">FACE gasoline surrogates formulated by an enhanced multivariate optimization framework</a>
+					</li>
+      	  
+				
       
     
   
@@ -3279,18 +3858,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a>
+					</li>
+      	  
+				
       
     
   
@@ -3307,18 +3894,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a>
+					</li>
+      	  
+				
       
     
   
@@ -3335,18 +3930,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a>
+					</li>
+      	  
+				
       
     
   
@@ -3363,18 +3966,26 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-exp-comp-poci">Effects of fuel content and density on the smoldering characteristics of cellulose and hemicellulose</a>
+					</li>
+      	  
+				
       
     
   
     
-      
       	
-      	<li><a href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/smoldering-mixtures-poci">Computational study of the effects of density, fuel content, and moisture content on smoldering propagation of cellulose and hemicellulose mixtures</a>
+					</li>
+      	  
+				
       
     
   
@@ -3391,10 +4002,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/simd-simt-pyjac2">Using SIMD and SIMT vectorization to evaluate sparse chemical kinetic Jacobian matrices and thermochemical source terms</a>
+					</li>
+      	  
+				
       
     
   
@@ -3411,10 +4026,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a>
+					</li>
+      	  
+				
       
     
   
@@ -3431,10 +4050,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a>
+					</li>
+      	  
+				
       
     
   
@@ -3451,10 +4074,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/langmuir-carbonate-chemistry">Effects of Langmuir turbulence on upper ocean carbonate chemistry</a>
+					</li>
+      	  
+				
       
     
   
@@ -3471,10 +4098,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3491,10 +4122,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3511,10 +4146,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3531,10 +4170,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3551,10 +4194,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3571,10 +4218,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/tomorrows-university">The principles of tomorrow's university</a>
+					</li>
+      	  
+				
       
     
   
@@ -3591,10 +4242,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a>
+					</li>
+      	  
+				
       
     
   
@@ -3611,10 +4266,14 @@
 
   
     
-      
       	
-      	<li><a href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a></li>
       	
+				  
+					<li class="nav-item">
+				  	<a class="nav-link" href="/papers/paper/CAABA-MECCA">The community atmospheric chemistry box model CAABA/MECCA-4.0</a>
+					</li>
+      	  
+				
       
     
   
@@ -3628,32 +4287,30 @@
 </div>
 
 
-   </div>
+  </div>
 
 
   <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+      <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jb-bottom-collapse" aria-controls="jb-bottom-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <ul class="nav navbar-nav navbar-left navbar-small">
-          <li><a href=http://mime.oregonstate.edu/>School of Mechanical, Industrial, and Manufacturing Engineering</a></li>
-          <li><a href=https://oregonstate.edu/>Oregon State University</a></li>
+        <ul class="navbar-nav mr-auto navbar-small"> 
+          <li class="nav-item"><a href=http://mime.oregonstate.edu/>School of Mechanical, Industrial, and Manufacturing Engineering</a></li>
+          <li class="nav-item"><a href=https://oregonstate.edu/>Oregon State University</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a href='/about.html#purpose'>About</a></li>
-          <li><a href='/about.html#join'>Join</a></li>
-          <li><a href='/about.html#contact'>Contact</a></li>
+        
+        <ul class="navbar-nav navbar-small">
+          <li class="nav-item"><a href='/about.html#purpose'>About</a></li>
+          <li class="nav-item"><a href='/about.html#join'>Join</a></li>
+          <li class="nav-item"><a href='/about.html#contact'>Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div>
+      </div>
   </nav>
 
 
@@ -3662,11 +4319,10 @@
 
 
 
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="/assets/themes/lab/bootstrap/js/bootstrap.min.js"></script>
+
   </body>
 </html>
 
