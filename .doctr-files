@@ -43,6 +43,7 @@
 ./assets/images/papers/cpc-chemistry-vectorization.png
 ./assets/images/papers/default-paper.png
 ./assets/images/papers/default-paper.svg
+./assets/images/papers/douglas-fir-reduced-model.jpg
 ./assets/images/papers/enfuem.2018.32.cover.jpg
 ./assets/images/papers/fuel-cover.jpg
 ./assets/images/papers/integrator-abstract.png
@@ -210,6 +211,7 @@
 ./papers/paper/butanol-skeletal-models.html
 ./papers/paper/chemked-ijck.html
 ./papers/paper/cpc-chemistry-vectorization.html
+./papers/paper/douglas-fir-reduced-model.html
 ./papers/paper/graph-search.html
 ./papers/paper/jmse-aps-analysis.html
 ./papers/paper/joss-peerjcs.html

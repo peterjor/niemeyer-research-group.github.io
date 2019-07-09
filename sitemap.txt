@@ -22,6 +22,7 @@ https://niemeyer-research-group.github.io//tags
 https://niemeyer-research-group.github.io//team/
 https://niemeyer-research-group.github.io//redirects.json
 
+https://niemeyer-research-group.github.io//papers/paper/douglas-fir-reduced-model
 https://niemeyer-research-group.github.io//papers/paper/CAABA-MECCA
 https://niemeyer-research-group.github.io//papers/paper/FTIR-LTC
 https://niemeyer-research-group.github.io//papers/paper/tomorrows-university
