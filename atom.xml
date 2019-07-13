@@ -4,13 +4,24 @@
  <title>Niemeyer Research Group</title>
  <link href="https://niemeyer-research-group.github.io//" rel="self"/>
  <link href="https://niemeyer-research-group.github.io/"/>
- <updated>2019-07-09T20:44:24+00:00</updated>
+ <updated>2019-07-13T15:20:36+00:00</updated>
  <id>https://niemeyer-research-group.github.io/</id>
  <author>
    <name>Kyle E. Niemeyer</name>
    <email>kyle.niemeyer@oregonstate.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Phil featured in Honors Link</title>
+   <link href="https://niemeyer-research-group.github.io//news/phil-featured"/>
+   <updated>2019-07-12T00:00:00+00:00</updated>
+   <id>https://niemeyer-research-group.github.io//news/phil-featured</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/team/phillip-mestas&quot;&gt;Phil&lt;/a&gt; was &lt;a href=&quot;http://blogs.oregonstate.edu/honorslink/2019/06/27/developing-a-career-honors-student-works-second-internship-with-google/&quot;&gt;featured in the Oregon State Honors Link&lt;/a&gt;
+about his second internship with Google!&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Reduced Gas-Phase Kinetic Models for Burning of Douglas Fir</title>
