@@ -6,8 +6,8 @@ https://niemeyer-research-group.github.io//atom.xml
 https://niemeyer-research-group.github.io//categories
 https://niemeyer-research-group.github.io//docs/code-of-conduct
 https://niemeyer-research-group.github.io//docs/expectations
-https://niemeyer-research-group.github.io//news/
 https://niemeyer-research-group.github.io//papers/
+https://niemeyer-research-group.github.io//news/
 https://niemeyer-research-group.github.io//
 https://niemeyer-research-group.github.io//docs/
 https://niemeyer-research-group.github.io//docs/mission
