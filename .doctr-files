@@ -102,6 +102,7 @@
 ./assets/images/team/group-escape-room-Jan2019.jpg
 ./assets/images/team/himakar-ganti.jpg
 ./assets/images/team/jayani-jayasuriya.jpg
+./assets/images/team/jesus-peraza.jpg
 ./assets/images/team/jimwel.jpg
 ./assets/images/team/kenny-warren.jpg
 ./assets/images/team/khang-tran.png
@@ -158,6 +159,7 @@
 ./assets/themes/lab/bootstrap/js/bootstrap.min.js
 ./assets/themes/lab/css/solarized.scss
 ./assets/themes/lab/css/style.css
+./assets/themes/lab/css/style.css.map
 ./assets/themes/lab/images/logo/android-chrome-192x192.png
 ./assets/themes/lab/images/logo/android-chrome-256x256.png
 ./assets/themes/lab/images/logo/apple-touch-icon-120x120.png
@@ -272,6 +274,7 @@
 ./team/himakar-ganti.html
 ./team/index.html
 ./team/jayani-jayasuriya.html
+./team/jesus-peraza.html
 ./team/jimwel-aguinaldo.html
 ./team/kenny-warren.html
 ./team/khang-tran.html
