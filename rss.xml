@@ -5,10 +5,22 @@
         <description>Niemeyer Research Group - Kyle E. Niemeyer</description>
         <link>https://niemeyer-research-group.github.io/</link>
         <link>https://niemeyer-research-group.github.io/</link>
-        <lastBuildDate>2019-09-07T10:19:47+00:00</lastBuildDate>
-        <pubDate>2019-09-07T10:19:47+00:00</pubDate>
+        <lastBuildDate>2019-09-09T01:09:19+00:00</lastBuildDate>
+        <pubDate>2019-09-09T01:09:19+00:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>pyMARS: automatically reducing chemical kinetic models in Python</title>
+                <description>
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Python-based (chemical kinetic) Model Automatic Reduction Software (pyMARS) implements multiple techniques for reducing the size and complexity of detailed chemical kinetic models.&lt;/p&gt;
+</description>
+                <link>https://niemeyer-research-group.github.io//papers/paper/pymars-joss</link>
+                <guid>https://niemeyer-research-group.github.io//papers/paper/pymars-joss</guid>
+                <pubDate>2019-09-08T00:00:00+00:00</pubDate>
+        </item>
 
         <item>
                 <title>Phil featured in Honors Link</title>

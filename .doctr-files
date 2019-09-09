@@ -58,6 +58,7 @@
 ./assets/images/papers/open-engineering.png
 ./assets/images/papers/peer-review-abstract.png
 ./assets/images/papers/pyjac-paper-abstract.svg
+./assets/images/papers/pymars-logo.svg
 ./assets/images/papers/reduced-gasoline-surrogate-abstract.svg
 ./assets/images/papers/review-GPU-CFD-abstract.png
 ./assets/images/papers/skeletal-reduction-graph-search-abstract.svg
@@ -228,6 +229,7 @@
 ./papers/paper/openness-engineering.html
 ./papers/paper/peer-review.html
 ./papers/paper/pyjac-paper.html
+./papers/paper/pymars-joss.html
 ./papers/paper/reduced-gasoline-surrogate.html
 ./papers/paper/review-GPU-CFD.html
 ./papers/paper/simd-simt-pyjac2.html
