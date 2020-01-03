@@ -5,10 +5,20 @@
         <description>Niemeyer Research Group - Kyle E. Niemeyer</description>
         <link>https://niemeyer-research-group.github.io/</link>
         <link>https://niemeyer-research-group.github.io/</link>
-        <lastBuildDate>2020-01-03T11:17:14+00:00</lastBuildDate>
-        <pubDate>2020-01-03T11:17:14+00:00</pubDate>
+        <lastBuildDate>2020-01-03T19:36:56+00:00</lastBuildDate>
+        <pubDate>2020-01-03T19:36:56+00:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>AJ successfully defended his PhD</title>
+                <description>&lt;p&gt;&lt;a href=&quot;/team/aj-fillo&quot;&gt;AJ&lt;/a&gt; successfully defended his PhD dissertation—congratulations Dr. Fillo!&lt;/p&gt;
+
+</description>
+                <link>https://niemeyer-research-group.github.io//news/af-defended</link>
+                <guid>https://niemeyer-research-group.github.io//news/af-defended</guid>
+                <pubDate>2019-12-16T00:00:00+00:00</pubDate>
+        </item>
 
         <item>
                 <title>pyMARS: automatically reducing chemical kinetic models in Python</title>
