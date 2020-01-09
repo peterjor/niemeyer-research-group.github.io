@@ -52,6 +52,7 @@
 ./assets/images/papers/kerosene-model-reduction-abstract.svg
 ./assets/images/papers/langmuir-carbonate-chemistry.png
 ./assets/images/papers/model-parameter-discrepancy.png
+./assets/images/papers/multicomponent-diffusion-method.jpg
 ./assets/images/papers/multicomponent-reduction-abstract.png
 ./assets/images/papers/nbutanol-counterflow-abstract.png
 ./assets/images/papers/oil-water-natural-gas-engine-abstract.png
@@ -227,6 +228,7 @@
 ./papers/paper/langmuir-carbonate-chemistry.html
 ./papers/paper/model-parameter-discrepancy.html
 ./papers/paper/moderately-stiff-GPU.html
+./papers/paper/multicomponent-diffusion-method.html
 ./papers/paper/multicomponent-reduction.html
 ./papers/paper/nbutanol-counterflow.html
 ./papers/paper/oil-water-natural-gas-engine.html
