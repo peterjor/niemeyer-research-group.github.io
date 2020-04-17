@@ -101,8 +101,7 @@ strong { font-weight: bold; }
 
 .bigtitle { font-size: 60px; line-height: 65px; font-weight: 100; }
 
-@media all and (max-width: 500px) { .bigtitle { font-size: 40px; line-height: 40px; }
-  .title { font-size: 30px; line-height: 30px; } }
+@media all and (max-width: 500px) { .bigtitle { font-size: 40px; line-height: 40px; } .title { font-size: 30px; line-height: 30px; } }
 
 .bighead { font-size: 40px; font-weight: 300; line-height: 36px; }
 
