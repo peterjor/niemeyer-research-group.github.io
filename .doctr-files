@@ -68,6 +68,7 @@
 ./assets/images/papers/smoldering-mixtures-poci.png
 ./assets/images/papers/software-citation-challenge.png
 ./assets/images/papers/software-citation-principles-abstract.svg
+./assets/images/papers/swept-heterogeneous.png
 ./assets/images/papers/target-species-selection-abstract.svg
 ./assets/images/papers/tomorrows-university.png
 ./assets/images/papers/wssspe3-report-abstract.svg
@@ -247,6 +248,7 @@
 ./papers/paper/software-citation-challenge.html
 ./papers/paper/software-citation-principles.html
 ./papers/paper/stiff-GPU-integrators.html
+./papers/paper/swept-heterogeneous.html
 ./papers/paper/target-species-selection.html
 ./papers/paper/tomorrows-university.html
 ./papers/paper/wssspe3-report.html
