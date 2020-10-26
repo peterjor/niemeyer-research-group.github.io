@@ -22,6 +22,7 @@ https://niemeyer-research-group.github.io//tags
 https://niemeyer-research-group.github.io//team/
 https://niemeyer-research-group.github.io//redirects.json
 
+https://niemeyer-research-group.github.io//papers/paper/multicomponent-diffusion-flame
 https://niemeyer-research-group.github.io//news/tenure-emily
 https://niemeyer-research-group.github.io//papers/paper/swept-heterogeneous
 https://niemeyer-research-group.github.io//papers/paper/multicomponent-diffusion-method

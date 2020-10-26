@@ -5,10 +5,22 @@
         <description>Niemeyer Research Group - Kyle E. Niemeyer</description>
         <link>https://niemeyer-research-group.github.io/</link>
         <link>https://niemeyer-research-group.github.io/</link>
-        <lastBuildDate>2020-10-25T14:58:52+00:00</lastBuildDate>
-        <pubDate>2020-10-25T14:58:52+00:00</pubDate>
+        <lastBuildDate>2020-10-26T06:56:43+00:00</lastBuildDate>
+        <pubDate>2020-10-26T06:56:43+00:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Assessing the impact of multicomponent diffusion in direct numerical simulations of premixed, high-Karlovitz, turbulent flames</title>
+                <description>
+&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+
+&lt;p&gt;Implementing multicomponent diffusion models in numerical combustion studies is computationally expensive; to reduce cost, numerical simulations commonly use mixture-averaged diffusion treatments or simpler models. However, the accuracy and appropriateness of mixture-averaged diffusion has not been verified for three-dimensional, turbulent, premixed flames. In this study we evaluated the role of multicomponent mass diffusion in premixed, three-dimensional high Karlovitz-number hydrogen, n-heptane, and toluene flames, representing a range of fuel Lewis numbers. We also studied a premixed, unstable two-dimensional hydrogen flame due to the importance of diffusion effects in such cases. Our comparison of diffusion flux vectors revealed differences of 10-20% on average between the mixture-averaged and multicomponent diffusion models, and greater than 40% in regions of high flame curvature. Overall, however, the mixture-averaged model produces small differences in diffusion flux compared with global turbulent flame statistics. To evaluate the impact of these differences between the two models, we compared normalized turbulent flame speeds and conditional means of species mass fraction and source term. We found differences of 5–20% in the mean normalized turbulent flame speeds, which seem to correspond to differences of 5–10% in the peak fuel source terms. Our results motivate further study into whether the mixture-averaged diffusion model is always appropriate for DNS of premixed turbulent flames.&lt;/p&gt;
+</description>
+                <link>https://niemeyer-research-group.github.io//papers/paper/multicomponent-diffusion-flame</link>
+                <guid>https://niemeyer-research-group.github.io//papers/paper/multicomponent-diffusion-flame</guid>
+                <pubDate>2020-10-23T00:00:00+00:00</pubDate>
+        </item>
 
         <item>
                 <title>Kyle receives tenure, Emily defends MS</title>
